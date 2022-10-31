@@ -1,0 +1,7 @@
+.header__link-container-item{
+  margin: 0 18px 0 0;
+}
+
+.header__link-container-item:nth-child(2){
+  margin: 0;
+}

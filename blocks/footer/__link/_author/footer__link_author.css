@@ -1,0 +1,16 @@
+.footer__link-author{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  max-width: 186px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 568px){
+  .footer__link-author{
+    line-height: 14px;
+    margin-top: 16px;
+  }
+}

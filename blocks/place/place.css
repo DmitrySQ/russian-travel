@@ -1,0 +1,33 @@
+.place{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 48px 40px;
+  grid-template-areas: 
+  "title website"
+  "image paragraph";
+}
+
+@media screen and (max-width: 1124px){
+  .place{
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 984px){
+  .place{
+    grid-gap: 48px 28px;
+  }
+}
+/* Не получается сделать гридом, сайт ломается, на этом разрешении сделал флексом и значением order 
+переместил website перед изображением */
+@media screen and (max-width: 568px){
+  .place{
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 0;
+  }
+}

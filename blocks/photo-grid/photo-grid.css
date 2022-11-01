@@ -2,32 +2,32 @@
   display: grid;
   grid-row-gap: 1em;
   grid-column-gap: 1em;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   box-sizing: border-box;
 
 }
 
 @media screen and (max-width: 1124px){
   .photo-grid{
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(4, 225px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-row-gap: 14px;
   }
 }
 
 @media screen and (max-width: 984px){
   .photo-grid{
-    grid-template-columns: repeat(2, 352px);
-    grid-template-rows: repeat(6, 264px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     max-width: 720px;
   }  
 }
 
 @media screen and (max-width: 568px){
   .photo-grid{
-    grid-template-columns: repeat(1, 288px);
-    grid-template-rows: repeat(12, 216px);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     max-width: 288px;
     grid-row-gap: 12px;
   }  

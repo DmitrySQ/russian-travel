@@ -2,6 +2,6 @@
   margin: 0 18px 0 0;
 }
 
-.header__link-container-item:nth-child(2){
+.header__link-container-item:last-of-type{
   margin: 0;
 }

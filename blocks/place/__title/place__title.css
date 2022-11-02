@@ -1,13 +1,21 @@
 .place__title{
   font-style: normal;
   font-weight: 900;
-  font-size: calc(32px + 40 * ((100vw - 320px) / (1280 - 320)));
+  font-size: 72px;
   line-height: 76px;
   margin: 0;
 }
 
+@media screen and (max-width: 984px){
+  .place__title{
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
 @media screen and (max-width: 568px){
   .place__title{
+    align-self: flex-start;
     margin-bottom: 2rem;
   }
 }

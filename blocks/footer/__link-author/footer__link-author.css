@@ -6,6 +6,11 @@
   color: #fff;
   max-width: 186px;
   text-decoration: none;
+  transition: opacity 0.3s linear;
+}
+
+.footer__link-author:hover{
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 568px){

@@ -15,6 +15,13 @@
   .photo-grid__item{
     max-width: 352px;
     max-height: 264px;
+    min-width: 220px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .photo-grid__item{
+    max-width: 100%;
   }
 }
 
